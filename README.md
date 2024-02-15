@@ -1,5 +1,7 @@
 # First Repo
-Nothing Special In this Repo. Just Practice Javascript. 
+Nothing Special In this Repo. Just Practice Javascript
+
+Labled by Chapter number and Small Description
 
 Starting from HTML, A sprinkle of CCS and File Managment.
 

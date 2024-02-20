@@ -1,0 +1,10 @@
+function getMilk(money){
+    milkcost = 3.68
+    amountBuy=Math.floor(money/milkcost)
+    totalCost = amountBuy*milkcost
+    remaining = money - totalCost
+    return remaining
+}
+
+change = getMilk(100)
+console.log(change)

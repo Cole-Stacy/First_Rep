@@ -1,10 +1,9 @@
-function getMilk(money){
-    milkcost = 3.68
-    amountBuy=Math.floor(money/milkcost)
-    totalCost = amountBuy*milkcost
-    remaining = money - totalCost
+function getMilk(starting_money,cost_per_bottle){
+    amountBuy=Math.floor(starting_money/cost_per_bottle)
+    totalCost = amountBuy*cost_per_bottle
+    remaining = starting_money - totalCost
     return remaining
 }
 
-change = getMilk(100)
+change = getMilk(1000, 3.68)
 console.log(change)
